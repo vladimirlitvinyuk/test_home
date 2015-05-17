@@ -1,0 +1,5 @@
+__author__ = 'samsung'
+import sys
+for line in sys.stdin:
+        for token in line.strip().split():
+            print(token + "\t 1")
